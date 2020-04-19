@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FrontendFunn - Bootstrap 4 Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y="
+      crossorigin="anonymous"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="slider ml-lg-5 ml-md-5 mt-5 py-lg-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div
+                  class="imgContainer ml-lg-n5 mt-lg-0 mt-md-0 ml-md-n5 mt-n5"
+                >
+                  <div class="image">
+                    <img src="./images/s2.png" />
+                  </div>
+                  <div class="image">
+                    <img src="./images/s2.png" />
+                  </div>
+                  <div class="image">
+                    <img src="./images/s2.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <!-- slider -->
+                <div
+                  id="productSlider"
+                  class="carousel slide carousel-fade pr-lg-5 py-lg-0 py-4"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="content">
+                        <div class="date">
+                          26 December 2019
+                        </div>
+                        <div class="title">
+                          Lorem ipsum dolor - one
+                        </div>
+                        <div class="desc">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Error itaque, libero dignissimos nihil aliquam
+                          eveniet tenetur cupiditate consectetur quod modi
+                          repellendus veniam, repellat iusto fugiat temporibus
+                          officia facere nulla nam.
+                        </div>
+                        <div
+                          class="d-flex justify-content-center justify-content-lg-start"
+                        >
+                          <button class="btn readMoreBtn">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="content">
+                        <div class="date">
+                          26 December 2019
+                        </div>
+                        <div class="title">
+                          Lorem ipsum dolor - two
+                        </div>
+                        <div class="desc">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Error itaque, libero dignissimos nihil aliquam
+                          eveniet tenetur cupiditate consectetur quod modi
+                          repellendus veniam, repellat iusto fugiat temporibus
+                          officia facere nulla nam.
+                        </div>
+                        <div
+                          class="d-flex justify-content-center justify-content-lg-start"
+                        >
+                          <button class="btn readMoreBtn">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="content">
+                        <div class="date">
+                          26 December 2019
+                        </div>
+                        <div class="title">
+                          Lorem ipsum dolor -three
+                        </div>
+                        <div class="desc">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Error itaque, libero dignissimos nihil aliquam
+                          eveniet tenetur cupiditate consectetur quod modi
+                          repellendus veniam, repellat iusto fugiat temporibus
+                          officia facere nulla nam.
+                        </div>
+                        <div
+                          class="d-flex justify-content-center justify-content-lg-start"
+                        >
+                          <button class="btn readMoreBtn">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- indicators -->
+                  <ol class="carousel-indicators indicators">
+                    <li
+                      data-target="#productSlider"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li data-target="#productSlider" data-slide-to="1"></li>
+                    <li data-target="#productSlider" data-slide-to="2"></li>
+                  </ol>
+                  <!-- indicators -->
+                </div>
+                <!-- slider -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+      integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
