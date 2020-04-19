@@ -1,6 +1,6 @@
 # Bootstrap 4 Carousel - Responsive Product Image Slider
 
-## 😃 Click here for the 👉 [💥LIVE DEMO]()
+## 😃 Click here for the 👉 [💥LIVE DEMO](https://frontendfunn.github.io/bootstrap4-carousel/)
 
 ![preview](images/preview.gif)
 
